@@ -1,0 +1,19 @@
+// C# program to create a List<T>
+using System;
+using System.Collections.Generic;
+
+class Geeks {
+
+	// Main Method
+	public static void Main(String[] args)
+	{
+
+		// Creating a List of integers
+		List<int> firstlist = new List<int>();
+
+		// displaying the number
+		// of elements of List<T>
+		Console.WriteLine(firstlist.Count);
+	}
+}
+
